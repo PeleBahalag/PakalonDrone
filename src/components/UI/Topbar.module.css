@@ -8,6 +8,7 @@
 }
 
 .header .subhead {
+  z-index: 999999;
   width: 100%;
   background-color: rgba(169, 211, 255, 0.9);
   height: 4rem;
@@ -18,6 +19,7 @@
 }
 
 .header .subhead2 {
+  z-index: 999999;
   width: 100%;
   font-weight: 300;
   background-color: rgba(150, 197, 247, 0.9);
@@ -46,6 +48,7 @@
 }
 
 .middleLogo {
+  z-index: 9999990;
   position: absolute;
   top: 0;
   padding: 0.6rem;
