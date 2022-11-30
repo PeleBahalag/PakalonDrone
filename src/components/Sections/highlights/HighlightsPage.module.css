@@ -1,0 +1,31 @@
+.page {
+  text-align: center;
+  color: rgb(99, 112, 129);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.section h1 {
+  text-align: right;
+  margin: 1rem;
+}
+
+.section img {
+  width: 100%;
+}
+
+.section p {
+  text-align: right;
+  margin: 0.5rem 1rem 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  height: auto;
+  transition: all 0.1s;
+}
+
+.btnGrid {
+  margin: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

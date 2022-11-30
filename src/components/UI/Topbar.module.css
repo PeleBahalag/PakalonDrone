@@ -1,0 +1,83 @@
+.header {
+  z-index: 999999;
+  width: 100%;
+  right: 0;
+  top: 0;
+  position: fixed;
+  color: rgb(99, 112, 129);
+}
+
+.header .subhead {
+  width: 100%;
+  background-color: rgba(169, 211, 255, 0.9);
+  height: 4rem;
+  padding: 1rem;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+}
+
+.header .subhead2 {
+  width: 100%;
+  font-weight: 300;
+  background-color: rgba(150, 197, 247, 0.9);
+  height: 2rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  backdrop-filter: blur(4px);
+}
+
+.subhead2 .subjects {
+  margin: -0.6rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.iconActivated {
+  transition: all 0.3s ease;
+  rotate: 0deg;
+}
+
+.icon {
+  rotate: 180deg;
+  transition: all 0.3s ease;
+  padding: auto;
+}
+
+.middleLogo {
+  position: absolute;
+  top: 0;
+  padding: 0.6rem;
+  right: 35%;
+  width: 30%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.middleLogo img {
+  width: 25%;
+}
+
+.middleLogo p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.leftLogo {
+  position: absolute;
+  top: 0;
+  padding: 0.6rem;
+  left: 0;
+  width: auto;
+  height: 4rem;
+  margin: auto;
+  text-align: center;
+}
+
+.search {
+  right: 0;
+  z-index: 10000000;
+  cursor: pointer;
+}

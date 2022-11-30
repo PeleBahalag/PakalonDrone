@@ -1,0 +1,25 @@
+.subject {
+  cursor: pointer;
+  padding: 1rem;
+  margin: auto;
+  height: 60%;
+  width: auto;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.notChosen {
+  color: rgb(242, 244, 255);
+}
+
+.chosen {
+  background-color: rgb(242, 244, 255);
+  color: rgb(99, 112, 129);
+}
+
+.subject p {
+  font-size: 1rem;
+  font-weight: 600;
+  vertical-align: middle;
+  margin-top: -0.75rem;
+}
