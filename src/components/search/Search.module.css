@@ -1,0 +1,92 @@
+.tab {
+  text-align: right;
+  background-color: rgb(99, 112, 129);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40rem;
+  border-radius: 35px 35px 0 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  color: rgb(242, 244, 255);
+}
+
+.slideAnim {
+  animation: slide 0.3s;
+}
+
+.slideAnimRev {
+  animation: slideRev 0.3s;
+}
+
+.x {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.searchBar {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.searchBar h1 {
+  margin: 0 0 1rem 0;
+}
+
+.bar {
+  display: inline-block;
+  font-family: "Heebo";
+  font-size: 1rem;
+  font-weight: 600;
+  resize: none;
+  vertical-align: middle;
+  width: 80%;
+  height: 2rem;
+  padding-right: 2.5rem;
+  border-radius: 20px;
+  background-color: rgb(242, 244, 255);
+  color: rgb(99, 112, 129);
+}
+
+.iconSearch {
+  display: inline-block;
+  position: absolute;
+  text-align: right;
+  color: rgb(99, 112, 129);
+  right: 10%;
+  margin: 0.25rem 0.5rem;
+}
+
+.header {
+  text-align: right;
+  padding-right: 0.5rem;
+  font-size: 1.4rem;
+  margin: 0 !important;
+  color: rgb(150, 197, 247);
+  font-weight: 900;
+}
+
+.paragraph {
+  text-align: right;
+  margin: 0.4rem;
+  padding-right: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(169, 211, 255);
+}
+@keyframes slide {
+  from {
+    bottom: -40rem;
+  }
+  to {
+    bottom: 0;
+  }
+}
+
+@keyframes slideRev {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: -40rem;
+  }
+}
