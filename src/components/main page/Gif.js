@@ -5,8 +5,10 @@ import { useState } from "react";
 
 const Gif = (props) => {
   const [loading, setLoading] = useState(true);
+  const [style, setStyle] = useState({ display: "none" });
   const handleImageLoaded = () => {
     setLoading(false);
+    setStyle({ display: "block" });
   };
 
   return (
@@ -17,6 +19,7 @@ const Gif = (props) => {
         className={classes.src}
         src={props.gif}
         alt=""
+        style={style}
       />
     </div>
   );
