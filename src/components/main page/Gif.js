@@ -13,7 +13,7 @@ const Gif = (props) => {
     <div className={classes.screen}>
       {loading && <Skeleton height={200} baseColor="lightgray" />}
       <img
-        onLoad={handleImageLoaded.bind(this)}
+        onLoad={handleImageLoaded}
         className={classes.src}
         src={props.gif}
         alt=""
