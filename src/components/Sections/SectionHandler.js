@@ -7,6 +7,7 @@ const SectionHandler = (props) => {
   const ctx = useContext(Context);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     setPage(Number(ctx.page));
   }, [ctx.page]);
 
