@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/Test/static/css/main.073c9b0a.css",
-    "main.js": "/Test/static/js/main.0d1db5d9.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Test/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/Test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/Test/static/css/main.51f94822.css",
+    "main.js": "/Test/static/js/main.55d8fd16.js",
+    "static/media/pic1.gif": "/Test/static/media/pic1.a92fdb91bc58a414b080.gif",
+    "static/media/pic2.gif": "/Test/static/media/pic2.9f4be1ffbfa8985db2f0.gif",
+    "static/media/פלא.png": "/Test/static/media/פלא.dcc13bb4b27f9e6abfcc.png",
+    "static/media/sayarim.png": "/Test/static/media/sayarim.59efda3ec87a4a847911.png",
+    "static/media/application.jpg": "/Test/static/media/application.5042d0aeaf32f45a40f4.jpg",
     "index.html": "/Test/index.html",
-    "main.073c9b0a.css.map": "/Test/static/css/main.073c9b0a.css.map",
-    "main.0d1db5d9.js.map": "/Test/static/js/main.0d1db5d9.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Test/static/js/787.28cb0dcd.chunk.js.map"
+    "main.51f94822.css.map": "/Test/static/css/main.51f94822.css.map",
+    "main.55d8fd16.js.map": "/Test/static/js/main.55d8fd16.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0d1db5d9.js"
+    "static/css/main.51f94822.css",
+    "static/js/main.55d8fd16.js"
   ]
 }
