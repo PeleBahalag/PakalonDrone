@@ -17,3 +17,20 @@
   margin: 0.5rem;
   text-align: center;
 }
+
+.container .align {
+  display: inline;
+  position: relative;
+  right: 1.5rem;
+}
+
+.container .v {
+  display: inline;
+  position: absolute;
+  right: 0;
+}
+
+.five {
+  position: relative;
+  right: 0;
+}
