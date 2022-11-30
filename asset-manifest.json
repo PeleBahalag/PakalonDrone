@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Test/static/css/main.f13ba875.css",
-    "main.js": "/Test/static/js/main.17c15f16.js",
+    "main.js": "/Test/static/js/main.3bbf1fbc.js",
     "static/media/pic1.gif": "/Test/static/media/pic1.a92fdb91bc58a414b080.gif",
     "static/media/pic2.gif": "/Test/static/media/pic2.9f4be1ffbfa8985db2f0.gif",
     "static/media/פלא.png": "/Test/static/media/פלא.dcc13bb4b27f9e6abfcc.png",
@@ -9,10 +9,10 @@
     "static/media/application.jpg": "/Test/static/media/application.5042d0aeaf32f45a40f4.jpg",
     "index.html": "/Test/index.html",
     "main.f13ba875.css.map": "/Test/static/css/main.f13ba875.css.map",
-    "main.17c15f16.js.map": "/Test/static/js/main.17c15f16.js.map"
+    "main.3bbf1fbc.js.map": "/Test/static/js/main.3bbf1fbc.js.map"
   },
   "entrypoints": [
     "static/css/main.f13ba875.css",
-    "static/js/main.17c15f16.js"
+    "static/js/main.3bbf1fbc.js"
   ]
 }
