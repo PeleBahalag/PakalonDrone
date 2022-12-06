@@ -1,6 +1,7 @@
 import { useContext, useState, useEffect } from "react";
 import Context from "../../store/context";
 import AirCoord from "./air coordination/AirCoord";
+import BattleProcedure from "./battle procedure/BattleProcedure";
 import Checks from "./checks/Checks";
 import HighlightsPage from "./highlights/HighlightsPage";
 import Safety from "./safety/Safety";
@@ -20,6 +21,7 @@ const SectionHandler = (props) => {
       {page === 2 && <Checks />}
       {page === 3 && <AirCoord />}
       {page === 4 && <Safety />}
+      {page === 6 && <BattleProcedure />}
     </>
   );
 };
