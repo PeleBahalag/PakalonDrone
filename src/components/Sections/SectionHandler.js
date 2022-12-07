@@ -12,6 +12,10 @@ const SectionHandler = (props) => {
   useEffect(() => {
     window.scrollTo(0, 0);
     setPage(Number(ctx.page));
+
+    if (page === 5) {
+      window.location = "https://pelebahalag.github.io/droneParts/index.html";
+    }
   }, [ctx.page]);
 
   const [page, setPage] = useState(ctx.page);
@@ -21,6 +25,8 @@ const SectionHandler = (props) => {
       {page === 2 && <Checks />}
       {page === 3 && <AirCoord />}
       {page === 4 && <Safety />}
+      {page === 4 && <Safety />}
+      {page === 4 && <h2>Loading...</h2>}
       {page === 6 && <BattleProcedure />}
     </>
   );
