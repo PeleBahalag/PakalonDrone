@@ -25,8 +25,7 @@ const SectionHandler = (props) => {
       {page === 2 && <Checks />}
       {page === 3 && <AirCoord />}
       {page === 4 && <Safety />}
-      {page === 4 && <Safety />}
-      {page === 4 && <h2>Loading...</h2>}
+      {page === 5 && <h1>Loading...</h1>}
       {page === 6 && <BattleProcedure />}
     </>
   );

@@ -20,10 +20,14 @@ const Title = (props) => {
     <div className={classes.title}>
       <h1>פק"ל כיס רחפן</h1>
       <h2>Mavic Pro</h2>
-      <Gif gif={pic1} />
-      <Subjects group={"group1"} />
-      <Gif gif={pic2} />
-      <Subjects group={"group2"} />
+      <div className={classes.box}>
+        <Gif gif={pic1} />
+        <Subjects group={"group1"} />
+      </div>
+      <div className={classes.box}>
+        <Gif gif={pic2} />
+        <Subjects group={"group2"} />
+      </div>
       <Paragraph />
     </div>
   );
