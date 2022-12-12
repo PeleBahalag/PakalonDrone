@@ -89,6 +89,11 @@
 }
 
 @media (orientation: landscape) {
+  .header {
+    width: 100%;
+    margin: 0;
+  }
+
   .header .subhead {
     height: 7rem;
   }

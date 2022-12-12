@@ -33,3 +33,9 @@
   font-size: 0.9rem;
   margin: 0;
 }
+
+@media (orientation: landscape) {
+  .middleLogo img {
+    width: 10%;
+  }
+}

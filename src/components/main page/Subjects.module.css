@@ -23,8 +23,9 @@
   .menu {
     position: absolute;
     width: 35%;
-    top: 5rem;
-    margin: 2rem;
+    padding: 3rem;
+    height: 70%;
+    margin: 0;
     font-size: 1.3rem;
     flex-wrap: nowrap;
     display: inline-block;
