@@ -23,3 +23,23 @@
   vertical-align: middle;
   margin-top: -0.75rem;
 }
+
+@media (orientation: landscape) {
+  .subject {
+    cursor: pointer;
+    padding: 1.8rem;
+    margin: auto;
+    height: 60%;
+    width: auto;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  .subject p {
+    font-size: 1.6rem;
+
+    margin-top: -1rem;
+  }
+  .subject:hover {
+    filter: brightness(120%);
+  }
+}

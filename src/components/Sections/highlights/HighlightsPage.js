@@ -161,61 +161,67 @@ const HighlightsPage = () => {
         </Button>
       </div>
       <h1>דגשים מעשיים</h1>
-      <p>{TEXT_BEFORE2[activeBtnIndex.before2]}</p>
-      <Button
-        activeIndex={activeBtnIndex}
-        section={2}
-        index={0}
-        clickHandler={buttonClickHandler2}
-      >
-        פק"ל
-      </Button>
-      <Button
-        activeIndex={activeBtnIndex}
-        section={2}
-        index={1}
-        clickHandler={buttonClickHandler2}
-      >
-        כרטיס זיכרון
-      </Button>
-      <Button
-        activeIndex={activeBtnIndex}
-        section={2}
-        index={2}
-        clickHandler={buttonClickHandler2}
-      >
-        מסדר פרוס
-      </Button>
-      <Button
-        activeIndex={activeBtnIndex}
-        section={2}
-        index={3}
-        clickHandler={buttonClickHandler2}
-      >
-        סגירה אווירית
-      </Button>
-      <Button
-        activeIndex={activeBtnIndex}
-        section={2}
-        index={4}
-        clickHandler={buttonClickHandler2}
-      >
-        ניהו"ק
-      </Button>
-      <Button
-        activeIndex={activeBtnIndex}
-        section={2}
-        index={5}
-        clickHandler={buttonClickHandler2}
-      >
-        דיווח
-      </Button>
+      <p className={classes.paragraphNormal}>
+        {TEXT_BEFORE2[activeBtnIndex.before2]}
+      </p>
+      <div className={classes.btnGrid}>
+        <Button
+          activeIndex={activeBtnIndex}
+          section={2}
+          index={0}
+          clickHandler={buttonClickHandler2}
+        >
+          פק"ל
+        </Button>
+        <Button
+          activeIndex={activeBtnIndex}
+          section={2}
+          index={1}
+          clickHandler={buttonClickHandler2}
+        >
+          כרטיס זיכרון
+        </Button>
+        <Button
+          activeIndex={activeBtnIndex}
+          section={2}
+          index={2}
+          clickHandler={buttonClickHandler2}
+        >
+          מסדר פרוס
+        </Button>
+        <Button
+          activeIndex={activeBtnIndex}
+          section={2}
+          index={3}
+          clickHandler={buttonClickHandler2}
+        >
+          סגירה אווירית
+        </Button>
+        <Button
+          activeIndex={activeBtnIndex}
+          section={2}
+          index={4}
+          clickHandler={buttonClickHandler2}
+        >
+          ניהו"ק
+        </Button>
+        <Button
+          activeIndex={activeBtnIndex}
+          section={2}
+          index={5}
+          clickHandler={buttonClickHandler2}
+        >
+          דיווח
+        </Button>
+      </div>
     </div>
   );
 
   const during = (
     <div>
-      <p>{TEXT_DURING1[activeBtnIndex.before1]}</p>
+      <p className={classes.paragraphNormal}>
+        {TEXT_DURING1[activeBtnIndex.before1]}
+      </p>
       <div className={classes.btnGrid}>
         <Button
           activeIndex={activeBtnIndex}
@@ -306,46 +312,52 @@ const HighlightsPage = () => {
           מצב זום
         </Button>
         <h1>איסורים וחובות בהטסה</h1>
-        <p>{TEXT_DURING2[activeBtnIndex.before2]}</p>
-        <Button
-          activeIndex={activeBtnIndex}
-          section={2}
-          index={0}
-          clickHandler={buttonClickHandler2}
-        >
-          מטען על הרחפן
-        </Button>
-        <Button
-          activeIndex={activeBtnIndex}
-          section={2}
-          index={1}
-          clickHandler={buttonClickHandler2}
-        >
-          הנמכת טוס
-        </Button>
-        <Button
-          activeIndex={activeBtnIndex}
-          section={2}
-          index={2}
-          clickHandler={buttonClickHandler2}
-        >
-          הפעלת מנועים
-        </Button>
-        <Button
-          activeIndex={activeBtnIndex}
-          section={2}
-          index={3}
-          clickHandler={buttonClickHandler2}
-        >
-          איסורי הטסה
-        </Button>
+        <p className={classes.paragraphNormal}>
+          {TEXT_DURING2[activeBtnIndex.before2]}
+        </p>
+        <div className={classes.btnGrid}>
+          <Button
+            activeIndex={activeBtnIndex}
+            section={2}
+            index={0}
+            clickHandler={buttonClickHandler2}
+          >
+            מטען על הרחפן
+          </Button>
+          <Button
+            activeIndex={activeBtnIndex}
+            section={2}
+            index={1}
+            clickHandler={buttonClickHandler2}
+          >
+            הנמכת טוס
+          </Button>
+          <Button
+            activeIndex={activeBtnIndex}
+            section={2}
+            index={2}
+            clickHandler={buttonClickHandler2}
+          >
+            הפעלת מנועים
+          </Button>
+          <Button
+            activeIndex={activeBtnIndex}
+            section={2}
+            index={3}
+            clickHandler={buttonClickHandler2}
+          >
+            איסורי הטסה
+          </Button>
+        </div>
       </div>
     </div>
   );
 
   const after = (
     <div>
-      <p>{TEXT_AFTER1[activeBtnIndex.before1]}</p>
+      <p className={classes.paragraphNormal}>
+        {TEXT_AFTER1[activeBtnIndex.before1]}
+      </p>
       <div className={classes.btnGrid}>
         <Button
           activeIndex={activeBtnIndex}

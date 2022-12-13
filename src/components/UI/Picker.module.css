@@ -12,3 +12,14 @@
 .pick {
   cursor: pointer;
 }
+
+@media (orientation: landscape) {
+  .pickerContainer {
+    position: relative;
+    border-radius: 10px;
+    width: 40%;
+    right: 30%;
+    height: 5rem;
+    margin-bottom: 2rem;
+  }
+}
