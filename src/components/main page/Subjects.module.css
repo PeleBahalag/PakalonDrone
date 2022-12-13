@@ -23,22 +23,26 @@
   .menu {
     position: absolute;
     width: 35%;
-    padding: 3rem;
-    height: 70%;
-    margin: 0;
-    font-size: 1.3rem;
+    padding: 2rem;
+    height: 100%;
+    margin-left: 17rem;
+    font-size: 1.5rem;
     flex-wrap: nowrap;
     display: inline-block;
     flex-direction: column;
   }
   .icon {
+    background-color: rgba(99, 112, 129, 0.123);
     position: relative;
     text-align: right;
     display: inline-block;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     right: 0;
+    padding: 1rem;
     width: 100%;
     cursor: pointer;
     transition: all 0.1s ease;
+    border-radius: 10px;
   }
 
   .icon:hover {

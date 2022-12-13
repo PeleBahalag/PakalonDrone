@@ -100,12 +100,12 @@
 
   .header .subhead2 {
     background-color: rgba(150, 197, 247, 0.9);
-    height: 4rem;
+    height: 3rem;
   }
 
   .subhead2 .subjects {
-    margin: 0;
-    font-size: 1.3rem;
+    margin: -0.25rem;
+    font-size: 1.2rem;
   }
 
   .middleLogo {
