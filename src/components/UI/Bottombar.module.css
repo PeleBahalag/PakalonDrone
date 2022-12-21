@@ -1,0 +1,41 @@
+.footer {
+  position: relative;
+  z-index: 99999;
+  width: 100%;
+  height: 4rem;
+  right: 0;
+  bottom: 0;
+}
+
+.footer hr {
+  height: 3px;
+  background-color: rgb(99, 112, 129);
+}
+
+.middleLogo {
+  position: absolute;
+  top: 0;
+  padding: 0.6rem;
+  right: 35%;
+  width: 30%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.middleLogo img {
+  width: 25%;
+}
+
+.middleLogo p {
+  font-weight: 600;
+  color: rgb(99, 112, 129);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+@media (orientation: landscape) {
+  .middleLogo img {
+    width: 10%;
+  }
+}

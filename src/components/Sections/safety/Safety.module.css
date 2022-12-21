@@ -1,0 +1,40 @@
+.section {
+  color: rgb(99, 112, 129);
+  margin: 1rem;
+  text-align: center;
+}
+
+.grid {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.item {
+  width: 45%;
+  margin: 1.5%;
+}
+
+.item .logo {
+  color: rgb(150, 197, 247);
+}
+
+.text {
+  text-align: right;
+  font-weight: 600;
+  padding: 0.2rem;
+  margin: 0;
+}
+
+.card {
+  width: 45%;
+  margin: 12% 1.5% 5% 1.5%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  background-color: rgba(169, 211, 255, 1);
+  text-align: center;
+  font-weight: 600;
+  padding: 0.2rem;
+  font-size: 0.95rem;
+}

@@ -1,0 +1,31 @@
+.title {
+  text-align: center;
+  color: rgb(99, 112, 129);
+}
+
+.title h1 {
+  font-weight: 800;
+  margin: 0.5rem 0 0 0;
+}
+
+.title h2 {
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+
+@media (orientation: landscape) {
+  .title h1 {
+    font-size: 3rem;
+  }
+
+  .title h2 {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+  }
+}

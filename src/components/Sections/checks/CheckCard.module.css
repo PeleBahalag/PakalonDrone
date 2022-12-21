@@ -1,0 +1,44 @@
+.card {
+  display: inline-block;
+  background-color: rgb(169, 211, 255);
+  border-radius: 7px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem;
+  margin: 2% 10%;
+  width: 84%;
+  height: auto;
+  transition: 0.1s all;
+}
+
+.checked {
+  background-color: #b4e7ce;
+}
+
+.checked h3 {
+  color: #468e56 !important;
+}
+
+.checked p {
+  color: #77b085 !important;
+}
+
+.card h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 0.1rem;
+  color: rgb(99, 112, 129);
+}
+
+.card p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+  color: rgb(147, 172, 181);
+}
+
+.v {
+  position: absolute;
+  right: 0;
+  margin: 5%;
+  display: inline-block;
+}

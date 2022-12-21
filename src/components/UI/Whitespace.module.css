@@ -1,0 +1,10 @@
+.whitespace {
+  position: relative;
+  width: 100%;
+}
+
+@media (orientation: landscape) {
+  .whitespace {
+    margin: 3.5rem;
+  }
+}

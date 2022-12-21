@@ -1,0 +1,21 @@
+.screen {
+  position: relative;
+  left: 0;
+  width: 100%;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.screen .src {
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+@media (orientation: landscape) {
+  .screen {
+    position: relative;
+    left: 25%;
+    width: 40%;
+    margin: 2rem;
+    display: inline-block;
+  }
+}

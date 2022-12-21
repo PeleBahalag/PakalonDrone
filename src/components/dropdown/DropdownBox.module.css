@@ -1,0 +1,17 @@
+.container {
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 9999999;
+  background-color: rgba(150, 197, 247, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+}
+
+@media (orientation: landscape) {
+  .container {
+    right: 0;
+    width: 30%;
+    top: 10rem;
+  }
+}
