@@ -16,6 +16,7 @@ const SectionHandler = (props) => {
     if (page === 5) {
       window.location = "https://pelebahalag.github.io/droneParts/index.html";
     }
+    // eslint-disable-next-line
   }, [ctx.page]);
 
   const [page, setPage] = useState(ctx.page);
