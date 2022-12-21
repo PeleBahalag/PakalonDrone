@@ -21,6 +21,7 @@ const DropdownItem = (props) => {
     // 5- מבנה הרחפן
     // 6- נוה"ק
     ctx.updatePage(`${props.page}`);
+    props.close();
   };
 
   return (
