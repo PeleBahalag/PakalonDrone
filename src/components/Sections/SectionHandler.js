@@ -13,10 +13,13 @@ const SectionHandler = (props) => {
     window.scrollTo(0, 0);
     setPage(Number(ctx.page));
 
-    if (page === 5) {
-      window.location = "https://pelebahalag.github.io/droneParts/index.html";
-    }
+    
+    // eslint-disable-next-line
   }, [ctx.page]);
+
+  const changePage =() => {
+    window.location.href = "https://pelebahalag.github.io/droneParts/index.html";
+  }
 
   const [page, setPage] = useState(ctx.page);
   return (
@@ -25,7 +28,7 @@ const SectionHandler = (props) => {
       {page === 2 && <Checks />}
       {page === 3 && <AirCoord />}
       {page === 4 && <Safety />}
-      {page === 5 && <h1>Loading...</h1>}
+      {page === 5 && <h1>Loading...</h1> && changePage()}
       {page === 6 && <BattleProcedure />}
     </>
   );

@@ -6,44 +6,52 @@ import { useContext, useEffect } from "react";
 const DropdownBox = (props) => {
   const ctx = useContext(Context);
 
+  const isChosen = (p) => {
+    if(p === Number(ctx.page)){
+      return true;
+    }
+    return false;
+  }
+
   useEffect(() => {
     props.changePage(ctx.page);
+    
     // eslint-disable-next-line
   }, [ctx.page]);
 
   return (
     <div className={classes.container}>
-      <DropdownItem page={0} name={"בית"} chosen={true} />
-      <DropdownItem page={1} name={"דגשים"} chosen={false} />
+      <DropdownItem close={props.closeDD} page={0} name={"בית"} chosen={isChosen(0)} />
+      <DropdownItem close={props.closeDD} page={1} name={"דגשים"} chosen={isChosen(1)} />
       <DropdownItem
-        closeDD={props.closeDD}
+        close={props.closeDD}
         page={2}
         name={"בדיקות חובה"}
-        chosen={false}
+        chosen={isChosen(2)}
       />
       <DropdownItem
-        closeDD={props.closeDD}
+        close={props.closeDD}
         page={3}
         name={"תיאום אווירי"}
-        chosen={false}
+        chosen={isChosen(3)}
       />
       <DropdownItem
-        closeDD={props.closeDD}
+        close={props.closeDD}
         page={4}
         name={"בטיחות"}
-        chosen={false}
+        chosen={isChosen(4)}
       />
       <DropdownItem
-        closeDD={props.closeDD}
+        close={props.closeDD}
         page={5}
         name={"מבנה הרחפן"}
-        chosen={false}
+        chosen={isChosen(5)}
       />
       <DropdownItem
-        closeDD={props.closeDD}
+        close={props.closeDD}
         page={6}
         name={'נוה"ק'}
-        chosen={false}
+        chosen={isChosen(6)}
       />
     </div>
   );
