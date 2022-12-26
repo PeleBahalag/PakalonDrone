@@ -17,7 +17,7 @@ const Checks = (props) => {
   };
 
   return (
-    <span onClick={checkCard}>
+    <span onClick={checkCard} className={classes.container}>
       {!active && <BsSquare className={classes.v} />}
       {active && <BsCheckSquare className={classes.v} />}
       <div className={cStyle}>{props.children}</div>

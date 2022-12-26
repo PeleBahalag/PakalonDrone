@@ -42,3 +42,21 @@
   margin: 5%;
   display: inline-block;
 }
+
+@media (orientation: landscape) {
+  .v {
+    position: absolute;
+    right: 31%;
+    margin: 2% 2%;
+    display: block;
+  }
+  .card {
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+    margin: 1% 35%;
+    width: 30%;
+    height: auto;
+    transition: 0.1s all;
+  }
+}
