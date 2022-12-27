@@ -14,10 +14,12 @@
 .item {
   width: 45%;
   margin: 1.5%;
+  cursor: default;
 }
 
 .item .logo {
   color: rgb(150, 197, 247);
+  transition: all 0.1s;
 }
 
 .text {
@@ -25,17 +27,63 @@
   font-weight: 600;
   padding: 0.2rem;
   margin: 0;
+  transition: all 0.1s;
 }
 
 .card {
   width: 45%;
   margin: 12% 1.5% 5% 1.5%;
-  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
   border-radius: 3px;
-  /* border-style: dashed; */
   border: 5px dashed rgba(169, 211, 255, 1);
   text-align: center;
   font-weight: 600;
   padding: 0.2rem;
+  cursor: default;
+  transition: all 0.1s;
   font-size: 0.95rem;
+}
+.ttl {
+  font-size: 1.8rem;
+}
+
+@media (orientation: landscape) {
+  .section {
+    margin: 3rem;
+  }
+  .grid {
+    position: relative;
+    right: 15%;
+    width: 70%;
+  }
+  .item {
+    padding: 1rem;
+  }
+  .text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.2rem;
+    margin: 0;
+  }
+  .ttl {
+    font-size: 2.8rem;
+  }
+  .card {
+    width: 45%;
+    margin: 5% 1.5% 5% 1.5%;
+    font-weight: 500;
+    padding: 0.2rem;
+    font-size: 1.5rem;
+  }
+
+  .card:hover {
+    border: 5px dashed rgb(77, 157, 243);
+  }
+
+  .item:hover > .logo {
+    color: rgb(77, 157, 243);
+  }
+  .item:hover > .text {
+    color: rgb(67, 75, 86);
+  }
 }

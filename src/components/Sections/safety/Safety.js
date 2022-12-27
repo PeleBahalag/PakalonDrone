@@ -20,7 +20,7 @@ import { GiDeliveryDrone, GiPathDistance } from "react-icons/gi";
 const Safety = (props) => {
   return (
     <div className={classes.section}>
-      <h1>בטיחות</h1>
+      <h1 className={classes.ttl}>בטיחות</h1>
       <div className={classes.grid}>
         <div className={classes.item}>
           <MdVerified size="50" className={classes.logo} />
