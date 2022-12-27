@@ -44,3 +44,28 @@
 .phones p {
   margin: 0.3rem;
 }
+
+@media (orientation: landscape) {
+  .section h1 {
+    margin: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .section h2 {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .card {
+    position: relative;
+    padding: 2rem;
+    margin: 3rem 0;
+    width: 70%;
+    right: 15%;
+  }
+
+  .phones {
+    padding: 1rem;
+    margin: 1.5rem 0.1rem;
+  }
+}
