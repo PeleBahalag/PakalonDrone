@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PakalonDrone/static/css/main.7e28533e.css",
-    "main.js": "/PakalonDrone/static/js/main.7415a25f.js",
+    "main.js": "/PakalonDrone/static/js/main.b13f1396.js",
     "static/media/pic1.gif": "/PakalonDrone/static/media/pic1.a92fdb91bc58a414b080.gif",
     "static/media/pic2.gif": "/PakalonDrone/static/media/pic2.9f4be1ffbfa8985db2f0.gif",
     "static/media/פלא.png": "/PakalonDrone/static/media/פלא.dcc13bb4b27f9e6abfcc.png",
@@ -9,10 +9,10 @@
     "static/media/application.jpg": "/PakalonDrone/static/media/application.5042d0aeaf32f45a40f4.jpg",
     "index.html": "/PakalonDrone/index.html",
     "main.7e28533e.css.map": "/PakalonDrone/static/css/main.7e28533e.css.map",
-    "main.7415a25f.js.map": "/PakalonDrone/static/js/main.7415a25f.js.map"
+    "main.b13f1396.js.map": "/PakalonDrone/static/js/main.b13f1396.js.map"
   },
   "entrypoints": [
     "static/css/main.7e28533e.css",
-    "static/js/main.7415a25f.js"
+    "static/js/main.b13f1396.js"
   ]
 }
