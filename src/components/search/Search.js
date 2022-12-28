@@ -10,13 +10,13 @@ import classes from "./Search.module.css";
 
 const Search = (props) => {
   const subjects = {
-    0: ["בית", "פתיחה"],
-    1: ["דגש"],
-    2: ["בדיקות", "בדיקה", "חובה"],
-    3: ["תיאום", "אויר", "אוויר", "סגירה"],
-    4: ["בטיחות"],
-    5: ["מבנה", "לומדה", "לומדת", "חלקי"],
-    6: ["נוהל", "קרב", 'נוה"ק', "נוהק", "נוה'ק"],
+    0: ["בית", "פתיחה", "ch,"],
+    1: ["דגש", "sda"],
+    2: ["בדיקות", "בדיקה", "חובה", "csheu,", "ucv"],
+    3: ["תיאום", "אויר", "אוויר", "סגירה", "tuuhr", "tuuhr", ",htuo"],
+    4: ["בטיחות", "cyhju,"],
+    5: ["מבנה", "לומדה", "לומדת", "חלקי", "ncbv", "kunsv", "jkeh"],
+    6: ["נוהל", "קרב", 'נוה"ק', "נוהק", "נוה'ק", "buve", "buvk", "erc"],
   };
 
   const ctx = useContext(Context);
@@ -66,12 +66,22 @@ const Search = (props) => {
     });
   };
 
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      focusInput();
+    }
+  };
+
   return (
     <div className={tabClass}>
       <RiCloseFill size="40" onClick={close} className={classes.x} />
       <section className={classes.searchBar}>
         <h1>לא מוצאים משהו?</h1>
-        <textarea className={classes.bar} ref={inputElement} />
+        <textarea
+          className={classes.bar}
+          ref={inputElement}
+          onKeyDown={handleKeyDown}
+        />
         <div className={classes.iconSearch} onClick={focusInput}>
           <ImSearch size="22" />
         </div>

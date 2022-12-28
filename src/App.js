@@ -46,7 +46,7 @@ function App() {
       )}
       {page === 0 && <Title changePage={changePage} />}
       {searchBarOpened && <Search closeSearch={closeSearch} />}
-      {page !== 0 && <SectionHandler />}
+      {page !== 0 && <SectionHandler changePage={changePage} />}
       <Bottombar />
     </ContextProvider>
   );
