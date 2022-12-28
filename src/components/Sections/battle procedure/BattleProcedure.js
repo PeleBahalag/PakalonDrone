@@ -8,8 +8,8 @@ import { TbBarrierBlock } from "react-icons/tb";
 const BattleProcedure = (props) => {
   return (
     <div className={classes.section}>
-      <h1>נוה"ק</h1>
-      <p>
+      <h1 className={classes.ttl}>נוה"ק</h1>
+      <p className={classes.p}>
         מהווה אסטרטגיה צבאית לפיה מתכננים ומבצעים מלחמה או משימה צבאית אחרת.
         ניתוח ומיפוי שטח הוא השלב הראשון בנוה"ק הנעשה באמצעות לימוד השטח דרך 8
         שלבים:
