@@ -293,13 +293,22 @@ const Search = (props) => {
           setText(answers[i].answerText);
           setAnswerShown(true);
           inputElement.current.value = "";
+          return;
         }
       }
     }
+    inputElement.current.value = "";
+    setText(
+      <h1 className={classes.error}>
+        לא נמצאו תוצאות ל-"
+        <span className={classes.errorVar}>{action.value}</span>"
+      </h1>
+    );
 
-    console.log(action);
+    setAnswerShown(true);
   };
 
+  // eslint-disable-next-line
   const [inputFunc, dispatchInputFunc] = useReducer(inputReducer, {
     value: "",
   });

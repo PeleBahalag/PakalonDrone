@@ -12,6 +12,14 @@
   color: rgb(242, 244, 255);
 }
 
+.error {
+  color: brown;
+}
+
+.errorVar {
+  color: rgb(235, 74, 74);
+}
+
 .slideAnim {
   animation: slide 0.3s;
 }
