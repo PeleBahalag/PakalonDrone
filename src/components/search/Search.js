@@ -28,7 +28,7 @@ const Search = (props) => {
       question: ["חמשת הדגשים", "חמש", "חמשת"],
       answerText: (
         <>
-          <h1 className={classes.header}>מה הם חמשת הדגשים?</h1>
+          <h1 className={classes.header}>חמשת הדגשים</h1>
           <p className={classes.paragraph}>
             נקי ממכשולים, מתכות, מגנטים ואנשים ברדיוס של 10 מטר.
             <br />
@@ -63,7 +63,7 @@ const Search = (props) => {
       ],
       answerText: (
         <>
-          <h1 className={classes.header}>כיצד נחבר פרופלורים?</h1>
+          <h1 className={classes.header}>כיצד נחבר פרופלורים</h1>
           <p className={classes.paragraph}>
             שחור לשחור לבן ללבן, מחוברים היטב בלי שברים וסדקים.
           </p>
@@ -124,10 +124,47 @@ const Search = (props) => {
         </p>
       ),
     },
-    8: { question: [], answerText: "" },
-    9: { question: [], answerText: "" },
-    10: { question: [], answerText: "" },
-    11: { question: [], answerText: "" },
+    8: {
+      question: ["בדיקת מערכות", "בדמ", "בדם", 'בד"מ'],
+      answerText: (
+        <p className={classes.paragraph}>
+          כאשר מעלים את הרחפן לאוויר יש בדיקות מערכת (בד"מ) על מנת לבדוק שהרחפן
+          מתפקד כמו שצריך וזז/מסתובב לכל הכיוונים.
+        </p>
+      ),
+    },
+    9: {
+      question: ["מרחק מטיס", "עמדת מטיס", "עמדה"],
+      answerText: (
+        <>
+          <h1 className={classes.header}>מרחק עמדת מטיס</h1>
+          <p className={classes.paragraph}>
+            בין עמדת מטיס אחת לשנייה חובה מרחק של לפחות 50 מ'.
+          </p>
+        </>
+      ),
+    },
+    10: {
+      question: ["GPS", "gps"],
+      answerText: (
+        <p className={classes.paragraph}>
+          לפני ההמראה יש לוודא שאנו על מצב P-GPS ושיש לנו 7 לוויינים. במידה
+          ונסטה ממצב זה במהלך ההטסה יש להתחיל להתקרב לכיווננו עד לחזרת הGPS.
+        </p>
+      ),
+    },
+    11: {
+      question: ["גובה", "מרחק"],
+      answerText: (
+        <>
+          <h1 className={classes.header}>גובה ומרחק</h1>
+          <p className={classes.paragraph}>
+            הרחפן יטוס לגובה של לא יותר מ120 מ' ו למרחק של לא יותר מ 1.8 ק"מ
+            בהתחשב בתיאום האווירי.
+          </p>
+        </>
+      ),
+    },
     12: { question: [], answerText: "" },
   };
 
