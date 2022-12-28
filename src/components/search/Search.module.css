@@ -92,3 +92,58 @@
     bottom: -40rem;
   }
 }
+
+@media (orientation: landscape) {
+  .tab {
+    width: 50%;
+    height: 40rem;
+    right: 25%;
+  }
+
+  .x {
+    transition: all 0.2s;
+    margin: 2rem 2rem 0 0;
+  }
+
+  .x:hover {
+    color: white;
+  }
+
+  .searchBar {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .bar {
+    font-size: 1.35rem;
+    font-weight: 600;
+    resize: none;
+    width: 60%;
+    height: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .iconSearch {
+    transition: all 0.2s;
+    cursor: pointer;
+    right: 20%;
+    margin: 0.5rem 0.75rem;
+  }
+
+  .iconSearch:hover {
+    color: rgb(127, 135, 146);
+  }
+
+  .header {
+    font-size: 1.6rem;
+  }
+
+  .paragraph {
+    text-align: right;
+    margin: 0.4rem;
+    padding-right: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(169, 211, 255);
+  }
+}
