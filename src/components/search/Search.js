@@ -53,8 +53,7 @@ const Search = (props) => {
 
   const [inputFunc, dispatchInputFunc] = useReducer(inputReducer, {
     value: "",
-    subject: "",
-    scrollY: 0,
+    searchMode: 0,
   });
 
   const inputElement = useRef();
@@ -64,8 +63,6 @@ const Search = (props) => {
     dispatchInputFunc({
       value: inputElement.current.value,
       searchMode: 1, // 0- none , 1- search subject 2- search part of subject
-      subject: "",
-      scrollY: 0,
     });
   };
 
