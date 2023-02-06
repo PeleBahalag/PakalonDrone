@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/PakalonDrone/static/css/main.665838ed.css",
-    "main.js": "/PakalonDrone/static/js/main.435ac0d1.js",
+    "main.js": "/PakalonDrone/static/js/main.e3520332.js",
     "static/media/pic1.gif": "/PakalonDrone/static/media/pic1.a92fdb91bc58a414b080.gif",
     "static/media/pic2.gif": "/PakalonDrone/static/media/pic2.9f4be1ffbfa8985db2f0.gif",
+    "static/media/sensors.png": "/PakalonDrone/static/media/sensors.6dbb9db78f4ad3909269.png",
+    "static/media/height.png": "/PakalonDrone/static/media/height.898e726f84962ee8d9a2.png",
+    "static/media/signal-lost.png": "/PakalonDrone/static/media/signal-lost.c27e90683c03cc07edae.png",
+    "static/media/distance-limits.png": "/PakalonDrone/static/media/distance-limits.0390e71f4b706dc07cbe.png",
+    "static/media/aircraft-battery.png": "/PakalonDrone/static/media/aircraft-battery.4b65b4900fd1d3031fe4.png",
+    "static/media/crit-battery.png": "/PakalonDrone/static/media/crit-battery.7b2dbada09e548998a53.png",
+    "static/media/compass.png": "/PakalonDrone/static/media/compass.a4c851a95527f78a46b7.png",
     "static/media/פלא.png": "/PakalonDrone/static/media/פלא.dcc13bb4b27f9e6abfcc.png",
     "static/media/sayarim.png": "/PakalonDrone/static/media/sayarim.59efda3ec87a4a847911.png",
-    "static/media/application.jpg": "/PakalonDrone/static/media/application.5042d0aeaf32f45a40f4.jpg",
     "index.html": "/PakalonDrone/index.html",
     "main.665838ed.css.map": "/PakalonDrone/static/css/main.665838ed.css.map",
-    "main.435ac0d1.js.map": "/PakalonDrone/static/js/main.435ac0d1.js.map"
+    "main.e3520332.js.map": "/PakalonDrone/static/js/main.e3520332.js.map"
   },
   "entrypoints": [
     "static/css/main.665838ed.css",
-    "static/js/main.435ac0d1.js"
+    "static/js/main.e3520332.js"
   ]
 }
