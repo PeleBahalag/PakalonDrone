@@ -1,8 +1,6 @@
 import { useState } from "react";
 import Picker from "../../UI/Picker";
 import classes from "./HighlightsPage.module.css";
-
-import imgApp from "../../../assets/application.jpg";
 import Button from "../../UI/Button";
 import Whitespace from "../../UI/Whitespace";
 
@@ -61,6 +59,9 @@ const HighlightsPage = () => {
     `,
   };
 
+  const [imgApp, setImgApp] = useState(
+    require("../../../../src/assets/pictures/height.png")
+  );
   const [chosenSubject, setChosenSubject] = useState([true, false, false]);
 
   const [activeBtnIndex, setActiveBtnIndex] = useState({
@@ -74,6 +75,42 @@ const HighlightsPage = () => {
   };
 
   const buttonClickHandler1 = (index) => {
+    // setImgApp()
+    switch (index) {
+      case 0:
+        setImgApp(require("../../../../src/assets/pictures/height.png"));
+        break;
+      case 1:
+        setImgApp(
+          require("../../../../src/assets/pictures/distance-limits.png")
+        );
+        break;
+      case 2:
+        setImgApp(require("../../../../src/assets/pictures/height.png"));
+        break;
+      case 3:
+        setImgApp(require("../../../../src/assets/pictures/signal-lost.png"));
+        break;
+      case 4:
+        setImgApp(require("../../../../src/assets/pictures/sensors.png"));
+        break;
+      case 5:
+        setImgApp(require("../../../../src/assets/pictures/crit-battery.png"));
+        break;
+      case 6:
+        setImgApp(require("../../../../src/assets/pictures/crit-battery.png"));
+        break;
+      case 7:
+        setImgApp(
+          require("../../../../src/assets/pictures/aircraft-battery.png")
+        );
+        break;
+      case 8:
+        setImgApp(require("../../../../src/assets/pictures/compass.png"));
+        break;
+      default:
+        break;
+    }
     setActiveBtnIndex({ before1: index, before2: activeBtnIndex.before2 });
   };
 
