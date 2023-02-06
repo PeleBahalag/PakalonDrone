@@ -328,7 +328,7 @@ const Search = (props) => {
 
   return (
     <div className={tabClass}>
-      <RiC  seFill size="40" onClick={close} className={classes.x} />
+      <RiCloseFill seFill size="40" onClick={close} className={classes.x} />
       <section className={classes.searchBar}>
         <h1>לא מוצאים משהו?</h1>
         <textarea
