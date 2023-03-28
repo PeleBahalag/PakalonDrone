@@ -92,7 +92,8 @@ const Safety = (props) => {
         <div className={classes.item}>
           <MdWater size="50" className={classes.logo} />
           <p className={classes.text}>
-            חל איסור להטיס מעל מים לזמן ממושך ומומלץ שלא להטיס בקרבת מים.
+            אין להטיס את הרחפן מעל טקסטורה אחידה (לדוג' מים/דשא) לזמן ממושך,
+            מכיוון שהרחפן עלול לאבד את ה-GPS
           </p>
         </div>
         <div className={classes.item}>

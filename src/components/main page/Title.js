@@ -19,7 +19,6 @@ const Title = (props) => {
   return (
     <div className={classes.title}>
       <h1>פק"ל כיס רחפן</h1>
-      <h2>Mavic Pro</h2>
       <div className={classes.box}>
         <Gif gif={pic1} />
         <Subjects group={"group1"} />

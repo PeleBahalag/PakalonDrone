@@ -57,7 +57,7 @@ const Checks = (props) => {
       </CheckCard>
       <CheckCard handleCheck={setActive} i={7} check={checkedArr[7]}>
         <p>כרטיס זיכרון</p>
-        <h3>ריק, מצב RC</h3>
+        <h3>ריק</h3>
       </CheckCard>
       <CheckCard handleCheck={setActive} i={8} check={checkedArr[8]}>
         <p>דיווח</p>
